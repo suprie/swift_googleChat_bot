@@ -18,5 +18,8 @@ let package = Package(
         .testTarget(
             name: "ios-toolsTests",
             dependencies: ["ios-tools"]),
+        .testTarget(
+            name: "AsyncHTTPTests",
+            dependencies: ["AsyncHTTPClient"])
     ]
 )
