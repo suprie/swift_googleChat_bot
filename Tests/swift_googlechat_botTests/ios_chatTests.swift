@@ -1,7 +1,7 @@
 import XCTest
 import class Foundation.Bundle
 
-final class ios_chatTests: XCTestCase {
+final class swift_googlechat_botTest: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct

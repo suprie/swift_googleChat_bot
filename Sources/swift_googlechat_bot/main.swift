@@ -50,8 +50,6 @@ class AsyncHTTPAPIClient: APIAdapter {
                     print(e)
                 case .success(let response):
                     if (response.status == .ok) {
-//                        print(response.body?.capacity)
-//                        print(response.body)
                     }
                 }
             }
@@ -119,7 +117,7 @@ class URLSessionAPIClient: APIAdapter {
 }
 
 do {
-    let parser = ArgumentParser(commandName: "ios-chat", 
+    let parser = ArgumentParser(commandName: "swift-googlechat-bot", 
                                 usage: "--url <Google chat webhook api> --room <Room> <Message to be sent>",
                                 overview: "Send chat to google chat")
     
